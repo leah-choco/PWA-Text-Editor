@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "",
+        title: "JATE",
       }),
 
       new InjectManifest({
@@ -31,14 +31,20 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "",
-        short_name: "",
-        description: "",
-        background_color: "",
-        theme_color: "",
+        name: "J.A.T.E.",
+        short_name: "JATE",
+        description: "Just Another Text Editor",
+        background_color: "#272822",
+        theme_color: "#272822",
         start_url: "./",
         publicPath: "./",
-        //icons
+        icons: [
+          {
+            src: path.resolve("src/images/logo.png"),
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join("assets", "icons"),
+          },
+        ],
       }),
     ],
 
