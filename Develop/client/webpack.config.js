@@ -33,7 +33,7 @@ module.exports = () => {
         inject: true,
         name: "J.A.T.E.",
         short_name: "JATE",
-        description: "Just Another Text Editor",
+        description: "Just Another Text Editor with ability to work offline",
         background_color: "#272822",
         theme_color: "#272822",
         start_url: "./",
@@ -51,7 +51,7 @@ module.exports = () => {
     module: {
       rules: [
         {
-          test: /\.css$/i,
+          test: /\.css$/,
           use: ["style-loader", "css-loader"],
         },
         {
