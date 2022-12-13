@@ -36,7 +36,7 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
-  "description": "Just Another Text Editor",
+  "description": "Just Another Text Editor with ability to work offline",
   "background_color": "#272822",
   "theme_color": "#272822"
 }
