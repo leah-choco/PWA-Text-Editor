@@ -4,6 +4,8 @@ Deployed Link: https://boiling-beach-44625.herokuapp.com/
 
 ## Screenshot:
 
+![screenshot](./Develop/client/src/images/Screen%20Shot%202022-12-13%20at%2012.43.48%20PM.png)
+
 ## Table of Contents:
 
 [Description](#Description)
@@ -15,7 +17,7 @@ Deployed Link: https://boiling-beach-44625.herokuapp.com/
 ## Description:
 
 This app began with the starter code ready to go, but was missing aspects that would make it a Progressive Web Application(PWA).
-It is a text editor that is now able to be installed as an app to allow it to be used offline. I had to fill out the javascript files as well as the src.sw.js. The goal was to outline the webpack plugins, and using the IndexedDB in the browser.
+It is a text editor that is now able to be installed as an app to allow it to be used offline. I had to fill out the javascript files as well as the src.sw.js. The goal was to outline the webpack plugins, and use the IndexedDB in the browser.
 
 ## Installation:
 
